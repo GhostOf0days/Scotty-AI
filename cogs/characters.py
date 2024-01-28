@@ -32,7 +32,7 @@ class Characters(commands.Cog):
 
         icon = ui.TextInput(label="URL for your character's profile picture:", 
                             placeholder="png, jpeg, or jpg", 
-                            default="https://cdn.discordapp.com/embed/avatars/0.png", 
+                            default="https://media.discordapp.net/attachments/1200986712084590592/1200986895350505563/TartanHacks_Logo.png?ex=65c82d35&is=65b5b835&hm=90eda4f02a29b943762980d81c589d0858c953b3818862a7a09f785f969c0387&=&format=webp&quality=lossless&width=1330&height=1324", 
                             required=True)
         
         profile = ui.TextInput(label="Character's profile:", 
@@ -101,7 +101,7 @@ class Characters(commands.Cog):
 
     @app_commands.command(name = "quick_create_character", description = "Create a new character without the popup menu.")
     @app_commands.checks.bot_has_permissions(embed_links=True)
-    async def quick_create_character_command(self, interaction : discord.Interaction, name : str, icon : str = "https://cdn.discordapp.com/embed/avatars/0.png", profile : str = ""):
+    async def quick_create_character_command(self, interaction : discord.Interaction, name : str, icon : str = "https://media.discordapp.net/attachments/1200986712084590592/1200986895350505563/TartanHacks_Logo.png?ex=65c82d35&is=65b5b835&hm=90eda4f02a29b943762980d81c589d0858c953b3818862a7a09f785f969c0387&=&format=webp&quality=lossless&width=1330&height=1324", profile : str = ""):
         user = data.get_user(interaction.user.id)
 
         # There is a limit to the size of dropdown menus which I use for switching characters
