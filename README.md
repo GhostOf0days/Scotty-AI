@@ -8,3 +8,6 @@ To use the bot, either use /help to get a list of commands (the commands are sel
 
 Warning:
 Editing the system prompt as this bot does will significantly decrease both alignment and truthfulness. The content generated may be wrong, toxic, biased, or harmful. As with any LLM, nothing AI generated should be taken seriously, at least without significant fact checking. You, and you alone are liable for the outputs the AI models generate.
+
+
+To get started run ```pip install -r requirements.txt``` to install the dependencies. Then, add the Discord bot token to a .env file. Finally, run ```python bot.py```.
