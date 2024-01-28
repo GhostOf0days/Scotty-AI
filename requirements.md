@@ -1,1 +1,0 @@
-I haven't setup requirements,.txt, but at least need discord.py, sentencepiece, and PyNaCl. Not sure about others.
